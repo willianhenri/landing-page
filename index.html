@@ -12,25 +12,19 @@
 </head>
 
 <body>
+  <div id="header">
+      <img src="images/logo.svg" alt="">
+    <nav>
+      <ul>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Sign In</a></li>
+      </ul>
+    </nav>
+  </div>
+
+
   <main id="main">
-    <div id="header">
-      <div class="logo">
-        <img src="images/logo.svg" alt="">
-      </div>
-      <nav>
-        <ul>
-          <a href="">
-            <li>Features</li>
-          </a>
-          <a href="">
-            <li>Team</li>
-          </a>
-          <a href="">
-            <li>Sign In</li>
-          </a>
-        </ul>
-      </nav>
-    </div>
     <div class="first-section">
       <div class="content">
         <h2>All your files in one secure location, accessible anywhere.</h2>
@@ -45,21 +39,23 @@
         <img src="images/illustration-1.svg" alt="">
       </div>
     </div>
+
+    <section id="curve">
+    </section>
+
+
     <div class="sec-section">
       <div class="content">
         <h2>Stay productive, wherever you are</h2>
         <p>Never let location be an issue when accessing your files. Fylo has you covere for all of your file storage
-          needs.
-        </p>
+          needs.</p>
         <p>Securly Share files and folders with friends, family and colleagues for live collaboration. No email
           attachments required!</p>
         <div id="span">
-          <span>See how Fylo works</span> <img src="images/icon-arrow.svg" alt="" srcset="">
+          <a href="#">See how fylo works <img src="images/icon-arrow.svg"></a> 
         </div>
         <div class="card">
-          <div class="img-card">
             <img src="images/icon-quotes.svg" alt="">
-          </div>
           <div class="text-card">
             <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
               become a well-oiled collaboration machine.</p>
@@ -77,6 +73,7 @@
         <img src="images/illustration-2.svg" alt="">
       </div>
     </div>
+
     <div class="third-section">
       <div class="content-2">
         <h4>Get early acess today</h4>
@@ -87,35 +84,39 @@
         <button type="submit">Get Started For Free</button>
       </div>
     </div>
+
     <footer>
-      <div class="footer-logo"><img src="images/logo-2.svg" alt=""></div>
-      <div class="content-footer">
-        <div class="contacts">
-          <div class="phone">
-            <img src="images/icon-phone.svg" alt=""><p>phone: +1-543-123-4567</p>
-          </div>
-          <div class="email">
-            <img src="images/icon-email.svg" alt=""> <p>example@fylo.com</p>
-          </div>
-        </div>
-        <div class="infos">
-          <div class="first-ul">
-            <ul>
-              <li>About Us</li>
-              <li>Jobs</li>
-              <li>Press</li>
-              <li>Blog</li>
-            </ul>
-          </div>
-          <div class="second-ul">
-            <ul>
-              <li>Contact Us</li>
-              <li>Terms</li>
-              <li>Privacy</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      <section class="main-footer">
+        <article class="img">
+          <img src="images/logo-2.svg">
+        </article>
+  
+        <section class="footer-flow">
+          <article class="first-row">
+            <a href="#"><img src="images/icon-phone.svg">Phone: +1-543-123-4567</a>
+            <a href="#"><img src="images/icon-email.svg">Email:  example@fylo.com</a>
+          </article>
+    
+          <article class="second-row">
+            <a href="#">About Us</a>
+            <a href="#">Jobs</a>
+            <a href="#">Press</a>
+            <a href="#">Blog</a>
+          </article>
+    
+          <article class="third-row">
+            <a href="#">Contact Us</a>
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+          </article>
+    
+          <article class="fourth-row">
+            <img src="images/facebook.svg">
+            <img src="images/twitter.svg">
+            <img src="images/instagram.svg">
+          </article>
+        </section>
+      </section>
     </footer>
   </main>
 </body>
